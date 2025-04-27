@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pedestals",
+	"version": "${version}",
+	"name": "Pedestals",
+	"description": "It can display your items",
+	"authors": [
+		"TrongThang"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/pedestals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.trongthang.pedestals.Pedestals"
+		],
+		"client": [
+			"com.trongthang.pedestals.PedestalsClient"
+		],
+		"fabric-datagen": [
+			"com.trongthang.pedestals.PedestalsDataGenerator"
+		]
+	},
+	"mixins": [
+		"pedestals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

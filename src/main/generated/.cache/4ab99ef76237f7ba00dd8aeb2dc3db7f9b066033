@@ -1,0 +1,4 @@
+// 1.20.1	2025-04-22T23:06:43.386828	Pedestals/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+2a72f5be8875c4c100ea09596d0a94b031a723bc data\minecraft\tags\blocks\mineable\pickaxe.json
+2a72f5be8875c4c100ea09596d0a94b031a723bc data\minecraft\tags\blocks\needs_stone_tool.json

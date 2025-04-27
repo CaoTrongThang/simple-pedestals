@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    " A ",
+    "AAA"
+
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stone_bricks"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "pedestals:pedestal",
+    "count": 1
+  }
+}
